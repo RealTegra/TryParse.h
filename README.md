@@ -7,6 +7,10 @@ A library that provides TryParsing methods similiar to C# into C++
     TryParseBool   - Converts a string into a bool
 
 # How to Use 
+The function returns a bool indicating whether the conversion was successful. It takes the input string and an output variable as parameters:
+
+    bool TryParse(input string, output)
+
 Include the two files in the root of your project and add   
     
     #include "TryParse.h"
